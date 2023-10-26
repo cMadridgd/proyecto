@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AMSTERDAM</title>
+</head>
+<body>
+    <div class="principal1">
+        <section class="section1">
+            <form id="dates">
+                <label>¿cuantas personas viajan?</label><br>
+                <input type="number" min="1" max="5" id="personas" placeholder="personas"><br>
+            <label>¿cual es tu nombre?</label><br>
+                <input type="text" id="name" placeholder="nombre"><br>
+            <label>¿tu documento de identificación?</label><br>
+                <input type="number" id="doc" placeholder="numero de doc"><br>
+            <label>¿Tu telefono?</label><br>
+                <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{6}" placeholder="telefono"><br>
+            <label>¿Cuál es tu edad?</label><br>
+                <input type="number" min="1" max="100" id="age" placeholder="Edad"><br>
+                
+            <button  type="button" onclick="registerAmsterdam()">cotizar</button>            
+            </form>
+            <p id="result"></p>
+        </section>
+
+        <script src="../js/amsterdam.js" ></script>
+</body>
+</html>

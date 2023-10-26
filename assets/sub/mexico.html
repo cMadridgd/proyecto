@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEXICO</title>
+    
+</head>
+<body>
+    <div class="principal1">
+        
+       
+    <section class="section1">
+        <form id="dates">
+        <label>¿Cuántas personas viajan?</label><br>
+            <input type="number" min="1" max="5" id="personas" placeholder="personas"><br><br>
+        <label>¿Cuál es tu nombre?</label><br>
+            <input type="text" id="name" placeholder="nombre"><br>
+         <label>¿Tu documento de identificación?</label><br>
+            <input type="number" id="doc" placeholder="numero de doc"><br>
+        <label>¿Tu teléfono?</label><br>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{6}" placeholder="telefono"><br>
+        <label>¿Cuál es tu edad?</label><br>
+            <input type="number" min="1" max="100" id="age" placeholder="Edad"><br>
+                        
+        <button type="button" onclick="registerMexico()">Cotizar</button>            
+    </form>
+    <p id="result"></p>
+    <p id="totalPagar"></p>
+                
+     
+        </section>
+            </div>
+    <script src="../js/mexico.js" ></script>
+</body>
+</html>

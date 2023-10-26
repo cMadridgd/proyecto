@@ -1,0 +1,34 @@
+.paquete_cuadro {
+    text-align: center;
+    display: inline-block;
+    width: 300px; 
+    margin: 20px; 
+    background-color:sienna;
+    padding: 34px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    justify-content: center;
+    align-items: flex-start;
+}
+body {
+    background-color: cadetblue; 
+}
+
+.imgmexico, .imgbrasil, .imgamsterdam {
+    width: 100%;
+    height: 250px;  
+    
+}
+
+.descripcion {
+    margin-top: 10px;
+}
+
+.seleccionar-button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
